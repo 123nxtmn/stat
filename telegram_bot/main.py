@@ -21,7 +21,7 @@ dp = Dispatcher(bot)
 async def send_welcome(message: types.Message):
     kb = [
         [
-            types.KeyboardButton(text="Сможешь повторить это?"),
+            types.KeyboardButton(text="/ссылки"),
             types.KeyboardButton(text="А это?")
         ],
     ]
